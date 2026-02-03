@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+/* ===================
+RAIN SECTION
+====================== */
+
+.rain-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWxnNnRqMWRnNjBxZnRyYzJ2b2Rhbnpjcm1wYTgwMThqeWVjNXE1ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IuVFGSQZTd6TK/giphy.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white; 
+    text-shadow: 1px 1px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.rain-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rain-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.rain-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.rain-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.rain-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+span {
+    font-weight: bold;
+    display: inline-block; 
+}
+
+/* ===================
+WINDY SECTION
+====================== */
+.windy-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(./img/windy.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(33, 12, 72); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.windy-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.windy-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.windy-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.windy-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.windy-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+/* ===================
+SPRING SECTION
+====================== */
+.spring-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://cdn.pixabay.com/animation/2023/02/15/10/12/10-12-39-589_512.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.spring-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.spring-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.spring-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.spring-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.spring-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+/* ===================
+FOG SECTION
+====================== */
+.fog-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/736x/b9/52/0d/b9520dc11fa7f733b98c3ea0f461f949.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.fog-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.fog-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.fog-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.fog-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.fog-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+/* ===================
+WINTER SECTION
+====================== */
+.winter-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/originals/ad/dd/d5/adddd5067c01e613c5f99e431f19574e.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.winter-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.winter-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.winter-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.winter-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.winter-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+/* ===================
+CLOUDY SECTION
+====================== */
+.cloudy-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/originals/48/e5/5a/48e55a38732f3d7561486911c9dd1c1b.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.cloudy-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cloudy-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.cloudy-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.cloudy-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.cloudy-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
