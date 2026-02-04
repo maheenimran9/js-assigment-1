@@ -397,3 +397,58 @@ SNOWY SECTION
     margin-bottom: 5px;
     word-wrap: break-word;
 }
+
+/* ===================
+SUMMER SECTION
+====================== */
+.sum-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/1200x/18/cb/fd/18cbfd5e7ac21e287a184215587c8dbd.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.sum-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sum-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sum-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.sum-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sum-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
