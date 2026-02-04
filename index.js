@@ -27,13 +27,32 @@ if (weather === "rainy") {
   </section>
     `);
     console.log("Success: Rainy block executed");
-}else if(weather === "windy"){
+}else if(weather === "spring"){
     document.writeln(`<section class="spring-sec">
     <div class="spring-card">
       <div class="spring-img">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvS-6oBw6Hr37-d8iiHO6_c8c4HfgZjIEupQ&s" alt="">
       </div>
       <div class="spring-text">
+        <p>Spring is the season of new life. Flowers bloom, trees turn green, and the air is filled 
+        with sweet scents. It is a bright and joyful time when the whole world looks beautiful and 
+        fresh.</p>
+      <ul>
+      <li><Span>Growth:</Span> Nature wakes up with colorful flowers.</li>
+      <li><Span>Weather:</Span> Pleasant and mild temperatures.</li>
+      <li><Span>Vibe:</Span> Happy and bright.</li>
+      </ul>
+      </div>
+    </div>
+  </section>`);
+    console.log("Spring");
+} else if(weather === "windy"){
+    document.writeln(`<section class="windy-sec">
+    <div class="windy-card">
+      <div class="windy-img">
+        <img src="./img/tree-wind.jpg" alt="">
+      </div>
+      <div class="windy-text">
         <p>Windy weather is full of energy. The cool breeze rustles the leaves and makes the air feel 
         fresh and alive. It’s the perfect time to feel the wind on your face and enjoy nature's power.
         </p>
@@ -45,26 +64,7 @@ if (weather === "rainy") {
       </div>
     </div>
   </section>`);
-    console.log("windy");
-} else if(weather === "spring"){
-    document.writeln(`<section class="windy-sec">
-    <div class="windy-card">
-      <div class="windy-img">
-        <img src="./img/tree-wind.jpg" alt="">
-      </div>
-      <div class="windy-text">
-        <p>Spring is the season of new life. Flowers bloom, trees turn green, and the air is filled 
-        with sweet scents. It is a bright and joyful time when the whole world looks beautiful and 
-        fresh.</p>
-      <ul>
-        <li><Span>Growth:</Span> Nature wakes up with colorful flowers.</li>
-        <li><Span>Weather:</Span> Pleasant and mild temperatures.</li>
-        <li><Span>Vibe:</Span> Happy and bright.</li>
-      </ul>
-      </div>
-    </div>
-  </section>`);
-    console.log("Sping");
+    console.log("Windy");
 }else if(weather === "fog"){
     document.writeln(`<section class="fog-sec">
     <div class="fog-card">
@@ -197,6 +197,7 @@ if (weather === "rainy") {
     </div>
   </section>`);
   console.log("Lightning");
-} else {
-  document.writeln(``);
+}else {
+  document.writeln(`<section class="nothing-sec">
+  </section>`);
 }
