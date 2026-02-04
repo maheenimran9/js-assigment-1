@@ -3,7 +3,7 @@ let weather = prompt (`What is your favorite season?
     1) Rainy            2) Windy           3) Spring           
     4) Fog              5) Winter          6) Cloudy  
     7) Snow             8) Summer          9) Rainbow
-    10) ThunderStorm`).toLowerCase();
+    10) Lightning`).toLowerCase();
 
 if (weather === "rainy") { 
     document.writeln(`
@@ -121,7 +121,7 @@ if (weather === "rainy") {
     </div>
   </section>`);
     console.log("cloudy");
-}else if( wheather === "snow"){
+}else if( weather === "snow"){
    document.writeln(`<section class="snow-sec">
     <div class="snow-card">
       <div class="snow-img">
@@ -140,7 +140,7 @@ if (weather === "rainy") {
     </div>
   </section>`);
    console.log("Snowy");
-} else if(wheather === "summer"){
+} else if(weather === "summer"){
      document.writeln(`<section class="sum-sec">
     <div class="sum-card">
       <div class="sum-img">
@@ -178,7 +178,25 @@ if (weather === "rainy") {
     </div>
   </section>`);
      console.log("Rainbow");
-} else if( weather === "thunderstorm"){
+} else if( weather === "lightning"){
+  document.writeln(`<section class="light-sec">
+    <div class="light-card">
+      <div class="light-img">
+        <img src="https://i.pinimg.com/736x/a5/3c/17/a53c1793b1ec7d01ec6aee299c145248.jpg" alt="">
+      </div>
+      <div class="light-text">
+        <p>Lightning is a breathtaking display of nature's raw power. It lights up the dark storm clouds 
+    with brilliant flashes of electricity, followed by the deep roar of thunder. It is a reminder of how 
+    energetic and awe-inspiring the atmosphere can be, making the world feel dramatic and exciting.</p>
+      <ul>
+        <li><Span>Power:</Span> A massive discharge of electricity that brightens the entire sky.</li>
+        <li><Span>Drama:</Span> The combination of light and sound creates an intense experience.</li>
+        <li><Span>Vibe:</Span> Intense, powerful, and electrifying.</li>
+      </ul>
+      </div>
+    </div>
+  </section>`);
+  console.log("Lightning");
+} else {
   document.writeln(``);
-  console.log("thunderstorm");
 }

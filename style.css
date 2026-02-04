@@ -509,12 +509,12 @@ RAINBOW SECTION
 }
 
 /* ===================
-THUNDER STORM SECTION
+LIGHTNING SECTION
 ====================== */
-.bow-sec {
+.light-sec {
     width: 100%;
     min-height: 100vh; 
-    background-image: url(https://i.pinimg.com/736x/89/b5/96/89b5967e800c7bed51b7f87cb18e1bc3.jpg);
+    background-image: url(https://i.pinimg.com/1200x/c9/9a/30/c99a305a4fc8b3f0949cbde3a0dda581.jpg);
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -526,7 +526,7 @@ THUNDER STORM SECTION
     padding: 10px; 
 }
 
-.bow-card {
+.light-card {
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(10px); 
     background: rgba(255, 255, 255, 0.1);  
@@ -537,7 +537,7 @@ THUNDER STORM SECTION
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.bow-card img {
+.light-card img {
     width: 100%;
     height: auto;
     max-height: 180px;
@@ -546,19 +546,37 @@ THUNDER STORM SECTION
     margin-bottom: 10px;
 }
 
-.bow-text p {
+.light-text p {
     font-size: clamp(9px, 4vw, 13px);
     line-height: 1.4;
     margin-bottom: 10px;
 }
 
-.bow-card ul {
+.light-card ul {
     padding: 0;
     list-style: none;
 }
 
-.bow-card li {
+.light-card li {
     font-size: clamp(8px, 3.5vw, 11px);
     margin-bottom: 5px;
     word-wrap: break-word;
+}
+
+/* ===================
+NOTHING SECTION
+====================== */
+.nothing-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/1200x/34/b5/e9/34b5e98f3cd50d6ae9cc1d0910095e5c.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
 }
