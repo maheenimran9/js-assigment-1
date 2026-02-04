@@ -342,3 +342,58 @@ CLOUDY SECTION
     margin-bottom: 5px;
     word-wrap: break-word;
 }
+
+/* ===================
+SNOWY SECTION
+====================== */
+.snow-sec {
+    width: 100%;
+    min-height: 100vh; 
+    background-image: url(https://i.pinimg.com/originals/04/a0/0f/04a00f50fdb994a94aff7914fec7eba5.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.snow-card {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px); 
+    background: rgba(255, 255, 255, 0.1);  
+    width: 95%;
+    max-width: 350px; 
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.snow-card img {
+    width: 100%;
+    height: auto;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.snow-text p {
+    font-size: clamp(9px, 4vw, 13px);
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.snow-card ul {
+    padding: 0;
+    list-style: none;
+}
+
+.snow-card li {
+    font-size: clamp(8px, 3.5vw, 11px);
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
